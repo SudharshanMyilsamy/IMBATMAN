@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<conio.h>
+#include<iostream.h>
+void main()
+{
+int k=0;
+Class stud
+{
+public: char name[12];
+int rollno;
+char grade[2];
+};
+class stud st[3];
+while(k<3)
+{ clrscr();
+gotoxy(2,4);
+cout<<”Name”;
+gotoxy(17,4);
+cin>>st[k].name;
+gotoxy(2,5);
+cout<<”Roll Number”;
+gotoxy(17,5);
+cin>>st[k].rollno;
+cout<<”Grade”;
+gotoxy(17,6);
+cin>>st[k].grade;
+st[k].grade[1]=’\0’;
+puts(“press any key..”);
+getch();
+k++;
+}
+k=0;
+clrscr();
+cout<<”\n Name\tRoll No.\t Grade\n”;
+while(k<3)
+{
+cout<<stt[k].name<<”\t”<<st[k].rollno<<”\t”<<st[k].grade<<”\n”;
+k++;
+}
+}
